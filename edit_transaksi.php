@@ -21,6 +21,7 @@ $data = $result->fetch_assoc();
 <!DOCTYPE html>
 <html>
 <head><title>Edit Transaksi</title></head>
+<link rel="stylesheet" href="style.css">
 <body>
 <h2>Edit Transaksi</h2>
 <form method="post">

@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f3f2; /* Latar netral sangat terang */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #3e2f2b; /* Mirip J */
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #72625C; /* Warna J */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #C48B8F; /* Warna A */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+}
+
+th {
+    background-color: #C5BFBA; /* Warna L */
+    color: #3e2f2b; /* Mirip J */
+}
+
+tr:hover {
+    background-color: #f1eaea; /* Efek hover lembut */
+}
+
+h2 {
+    margin-top: 40px;
+    color: #5e4c48; /* Coklat gelap */
+}
+
+.aksi a {
+    margin-right: 10px;
+    color: #72625C; /* Warna J */
+    text-decoration: none;
+}
+
+.aksi a:hover {
+    text-decoration: underline;
+}

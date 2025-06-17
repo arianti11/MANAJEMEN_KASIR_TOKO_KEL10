@@ -16,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 <head><title>Tambah Transaksi</title></head>
+<link rel="stylesheet" href="style.css">
 <body>
 <h2>Tambah Transaksi</h2>
 <form method="post">

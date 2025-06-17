@@ -32,68 +32,7 @@ $agg = $agregat->fetch_assoc();
 <head>
     <title>Dashboard Kasir Toko</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background:rgb(210, 183, 202);
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-        }
-        nav {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        nav a {
-            display: inline-block;
-            margin: 5px;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: 0.3s;
-        }
-        nav a:hover {
-            background-color: #0056b3;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        th, td {
-            padding: 12px 15px;
-            border-bottom: 1px solid #eaeaea;
-            text-align: left;
-        }
-        th {
-            background-color: #007bff;
-            color: white;
-        }
-        tr:hover {
-            background-color: #f1f1f1;
-        }
-        h2 {
-            margin-top: 40px;
-            color: #444;
-        }
-        .aksi a {
-            margin-right: 10px;
-            color: #007bff;
-            text-decoration: none;
-        }
-        .aksi a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="style1.css">
     <style>
         body { font-family: sans-serif; padding: 20px; }
         nav a {
@@ -107,8 +46,8 @@ $agg = $agregat->fetch_assoc();
         th { background-color: #eee; }
         h2 { margin-top: 40px; }
         .action { text-align: center; }
-        .btn { padding: 4px 8px; background-color: #5cb85c; color: white; text-decoration: none; border-radius: 4px; }
-        .btn:hover { background-color: #4cae4c; }
+        .btn { padding: 4px 8px; background-color:rgb(237, 180, 213); color: white; text-decoration: none; border-radius: 4px; }
+        .btn:hover { background-color:rgb(222, 147, 172); }
     </style>
 </head>
 <body>
