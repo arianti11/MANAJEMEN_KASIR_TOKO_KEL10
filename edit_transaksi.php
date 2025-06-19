@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->bind_param("sdi", $tanggal, $total_bayar, $id);
     $stmt->execute();
 
-    header('Location: index.php');
+    header('Location: tampilan_transaksi.php');
     exit();
 }
 
@@ -29,6 +29,6 @@ $data = $result->fetch_assoc();
     Total Bayar: <input type="number" step="0.01" name="total_bayar" value="<?= $data['total_bayar'] ?>" required><br>
     <button type="submit">Update</button>
 </form>
-<a href="index.php">Kembali</a>
+<a href="tampilan_transaksi.php">Kembali</a>
 </body>
 </html>

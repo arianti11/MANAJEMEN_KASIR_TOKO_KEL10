@@ -33,22 +33,6 @@ $agg = $agregat->fetch_assoc();
     <title>Dashboard Kasir Toko</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style1.css">
-    <style>
-        body { font-family: sans-serif; padding: 20px; }
-        nav a {
-            margin-right: 20px;
-            text-decoration: none;
-            font-weight: bold;
-            color: #333;
-        }
-        table { border-collapse: collapse; width: 100%; margin-bottom: 40px; }
-        th, td { border: 1px solid #ccc; padding: 8px; }
-        th { background-color: #eee; }
-        h2 { margin-top: 40px; }
-        .action { text-align: center; }
-        .btn { padding: 4px 8px; background-color:rgb(237, 180, 213); color: white; text-decoration: none; border-radius: 4px; }
-        .btn:hover { background-color:rgb(222, 147, 172); }
-    </style>
 </head>
 <body>
 

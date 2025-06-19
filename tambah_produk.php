@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->bind_param("sd", $nama, $harga);
     $stmt->execute();
 
-    header('Location: index.php');
+    header('Location: tampilan_produk.php');
     exit();
 }
 ?>
@@ -24,6 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     Harga: <input type="number" step="0.01" name="harga" required><br>
     <button type="submit">Simpan</button>
 </form>
-<a href="index.php">Kembali</a>
+<a href="tampilan_produk.php">Kembali</a>
 </body>
 </html>

@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->bind_param("sd", $tanggal, $total_bayar);
     $stmt->execute();
 
-    header('Location: index.php');
+    header('Location: tampilan_transaksi.php');
     exit();
 }
 ?>
@@ -24,6 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     Total Bayar: <input type="number" step="0.01" name="total_bayar" required><br>
     <button type="submit">Simpan</button>
 </form>
-<a href="index.php">Kembali</a>
+<a href="tampilan_transaksi.php">Kembali</a>
 </body>
 </html>

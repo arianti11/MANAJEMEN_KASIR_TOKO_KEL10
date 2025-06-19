@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->bind_param("sdi", $nama, $harga, $id);
     $stmt->execute();
 
-    header('Location: index.php');
+    header('Location: tampilan_produk.php');
     exit();
 }
 
@@ -29,6 +29,6 @@ $data = $result->fetch_assoc();
     Harga: <input type="number" step="0.01" name="harga" value="<?= $data['harga'] ?>" required><br>
     <button type="submit">Update</button>
 </form>
-<a href="index.php">Kembali</a>
+<a href="tampilan_produk.php">Kembali</a>
 </body>
 </html>
